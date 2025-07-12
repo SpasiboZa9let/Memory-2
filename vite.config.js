@@ -2,7 +2,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/Memory-2-main/', // чтобы работало и на GitHub Pages, и в Cordova
+  base: '/Memory-2/', // чтобы работало и на GitHub Pages, и в Cordova
   build: {
     outDir: 'dist',
     emptyOutDir: true
