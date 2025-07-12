@@ -1,1 +1,83 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f4f1ea;
+}
+
+#map {
+  width: 100%;
+  max-width: 600px;
+  height: 600px;
+  margin: 40px auto;
+  background: #ddd url('../public/photos/map-placeholder.png') center/cover no-repeat;
+  border: 2px solid #aaa;
+  position: relative;
+}
+
+/* Простой стиль маркеров */
+.marker {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid white;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transform: translate(-50%, -100%);
+}
+
+#memory-panel {
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+#audio-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 10px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+#progress-wrapper {
+  width: 100%;
+  max-width: 600px;
+  height: 6px;
+  background: #ccc;
+  margin: 10px auto;
+}
+
+#progress-bar {
+  width: 0;
+  height: 100%;
+  background: #5c4033;
+  transition: width 0.3s ease;
+}
+
+#open-album {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #eee;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #aaa;
+  width: fit-content;
+}
+
+.hidden {
+  display: none !important;
+}
 
