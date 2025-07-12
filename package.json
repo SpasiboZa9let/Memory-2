@@ -1,5 +1,5 @@
 {
-  "name": "Memory-2",
+  "name": "memory-map",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -11,4 +11,3 @@
     "vite": "^5.4.0"
   }
 }
-
