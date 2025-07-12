@@ -2,10 +2,9 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/Memory-2/', // 👈 если репозиторий называется memory-map
+  base: '/Memory-2/', // ← строго как имя репозитория на GitHub
   build: {
     outDir: 'dist',
     emptyOutDir: true
   }
 });
-
