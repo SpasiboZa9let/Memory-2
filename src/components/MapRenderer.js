@@ -1,5 +1,3 @@
-// src/components/MapRenderer.js
-
 import { qs } from '../utils/dom.js';
 
 export default class MapRenderer {
@@ -46,4 +44,3 @@ export default class MapRenderer {
     window.removeEventListener('resize', this._onResize);
   }
 }
-
